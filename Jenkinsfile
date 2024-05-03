@@ -11,7 +11,7 @@ pipeline {
             steps {
                 // Checkout the code from Git repo
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs:
-                [[credentialsId: 'githubtoken', url: 'https://github.com/HCharlesjc/welcome-app.git']])
+                [[credentialsId: 'githubtoken', url: 'https://github.com/Darkbrad1/welcome-app.git']])
             }
 
         }
